@@ -1,0 +1,59 @@
+<form class="js-d-form" id="js-d-form" action="https://formsubmit.co/hello@joyshard.com" method="POST" enctype="multipart/form-data">
+      <p class="js-dk">Design a gift</p>
+      <h1>Certain, or a surprise.</h1>
+      <p class="lead">Pick a style. Tell us who they are. Two concepts in 24 hours. Pay $138 after you confirm.</p>
+      <p class="price" id="js-d-price">$138 · portrait figure from their photo</p>
+      <input type="hidden" name="_subject" value="JoyShard design request">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="true">
+      <input type="hidden" name="_next" value="/pages/design?sent=1">
+      <input type="hidden" name="photo_name" id="js-d-photoname" value="">
+      <div id="js-d-fields">
+        <p style="margin:0 0 10px;font-weight:500;font-size:15px">Style</p>
+        <div class="js-d-styles">
+          <input type="radio" name="style" id="js-d-a" value="Portrait" checked>
+          <label for="js-d-a">
+            <img src="https://cdn.jsdelivr.net/gh/adamdavis797-maker/joyshard-images@main/images/13-style-a-portrait.jpg" alt="">
+            <span>A · Portrait<br>Certain. From their photo.</span>
+          </label>
+          <input type="radio" name="style" id="js-d-b" value="AI Surprise">
+          <label for="js-d-b">
+            <img src="https://cdn.jsdelivr.net/gh/adamdavis797-maker/joyshard-images@main/images/14-style-b-surprise.jpg" alt="">
+            <span>B · AI Surprise<br>Random. From their hobbies.</span>
+          </label>
+        </div>
+        <label class="f">
+          <b>Who is this for</b>
+          <small>A short sentence: who + when.</small>
+          <input class="field" name="who" required maxlength="160" placeholder="For my girlfriend on her birthday">
+        </label>
+        <label class="f">
+          <b>What they love</b>
+          <small>2–4 specifics. Needed for Surprise; helps Portrait too.</small>
+          <textarea class="field" name="hobbies" required maxlength="400" rows="4" placeholder="Cats, travel, coffee, the moon"></textarea>
+        </label>
+        <label class="f">
+          <b>Email</b>
+          <small>Concepts arrive here.</small>
+          <input class="field" type="email" name="email" id="js-d-email" required maxlength="120" placeholder="you@email.com">
+        </label>
+        <div class="f" style="margin-bottom:22px">
+          <b id="js-d-photolabel">Photo of them (required for Portrait)</b>
+          <small id="js-d-photohint">JPG or PNG, under 8 MB. We sculpt the figure from this.</small>
+          <input id="js-d-photo" class="js-d-file" type="file" name="attachment" accept="image/jpeg,image/png,image/webp">
+          <label for="js-d-photo" class="js-d-filebtn">Choose photo</label>
+          <span id="js-d-filename" style="margin-left:10px;font-size:13px;color:#74685a">No file chosen</span>
+          <div class="js-d-prev" id="js-d-prevwrap">
+            <img id="js-d-prev" alt="Preview">
+            <button type="button" id="js-d-remove">Remove photo</button>
+          </div>
+        </div>
+        <p class="js-d-err" id="js-d-err"></p>
+        <button class="go" type="submit" id="js-d-submit">Get my 2 concepts</button>
+      </div>
+      <div class="js-d-ok" id="js-d-ok">
+        <h2>We have your brief.</h2>
+        <p>Two concepts will be emailed to <b id="js-d-okmail"></b> within 24 hours. When you confirm, go to checkout.</p>
+        <a class="go" href="/pages/checkout">Go to checkout</a>
+      </div>
+    </form>
