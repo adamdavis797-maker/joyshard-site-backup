@@ -1,0 +1,46 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Outfit:wght@400;500&display=swap");
+.js-d{font-family:Outfit,ui-sans-serif,system-ui,sans-serif;color:#2b241b;background:#fffaf4;line-height:1.5}
+.js-d *{box-sizing:border-box}
+.js-d-grid{display:grid;grid-template-columns:1fr 1fr;min-height:80vh}
+.js-d-visual{position:relative;min-height:48vh;background:#1c1610}
+.js-d-visual img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.js-d-visual .veil{position:absolute;inset:0;background:linear-gradient(to top,rgba(28,22,16,.55),transparent 55%);pointer-events:none}
+.js-d-visual .cap{position:absolute;left:40px;right:40px;bottom:40px;color:#fffaf4}
+.js-d-visual .cap .k{margin:0;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:#c4a36a}
+.js-d-visual .cap h2{margin:10px 0 0;font-family:"Cormorant Garamond",Georgia,serif;font-size:32px;line-height:1.2;font-weight:600}
+.js-d-visual .cap p{margin:8px 0 0;max-width:22em;font-size:14px;color:rgba(255,250,244,.8)}
+.js-d-form{padding:56px 48px 80px;background:#fffaf4}
+.js-dk{margin:0;font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:#74685a}
+.js-d-form h1{margin:10px 0 0;font-family:"Cormorant Garamond",Georgia,serif;font-size:42px;line-height:1.12;font-weight:600}
+.js-d-form .lead{margin:14px 0 0;color:#74685a;font-size:16px}
+.js-d-form .price{margin:8px 0 28px;font-size:14px;color:#74685a}
+.js-d-styles{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:0 0 28px}
+.js-d-styles input{position:absolute;opacity:0;pointer-events:none}
+.js-d-styles label{margin:0;cursor:pointer;border-radius:16px;overflow:hidden;background:#f3ebe0;display:block}
+.js-d-styles img{width:100%;aspect-ratio:1;object-fit:cover;display:block}
+.js-d-styles span{display:block;padding:8px 10px 10px;font-size:13px;line-height:1.35}
+.js-d-styles input:checked + label{outline:2px solid #2b241b;outline-offset:2px}
+.js-d label.f,.js-d .f{display:block;margin:0 0 22px}
+.js-d label.f b,.js-d .f b{display:block;font-weight:500;font-size:15px}
+.js-d label.f small,.js-d .f small{display:block;margin:4px 0 8px;color:#74685a;font-size:13px}
+.js-d .field{width:100%;height:48px;border:1px solid #e6d7c4;border-radius:14px;background:#f3ebe0;padding:0 16px;color:#2b241b;font:inherit}
+.js-d textarea.field{height:auto;padding:14px 16px;min-height:110px;resize:vertical}
+.js-d .go{display:inline-flex;align-items:center;justify-content:center;width:100%;height:52px;margin-top:8px;border:0;border-radius:999px;background:#a24b28;color:#fffaf4;font:inherit;font-size:16px;cursor:pointer;text-decoration:none !important}
+.js-d .go:hover{background:#8a3e22;color:#fffaf4 !important}
+.js-d-file{position:absolute;width:1px;height:1px;opacity:0;overflow:hidden}
+.js-d-filebtn{display:inline-flex;align-items:center;height:40px;padding:0 16px;border-radius:999px;background:#f3ebe0;color:#2b241b;font-size:14px;cursor:pointer}
+.js-d-prev{display:none;align-items:flex-end;gap:12px;margin-top:10px}
+.js-d-prev img{height:88px;border-radius:12px;object-fit:cover}
+.js-d-prev button{height:36px;padding:0 14px;border:1px solid #e6d7c4;border-radius:999px;background:#fffaf4;color:#2b241b;font:inherit;font-size:13px;cursor:pointer}
+.js-d-ok{display:none;margin-top:36px;padding:28px;border:1px solid #e6d7c4;border-radius:20px;background:#f3ebe0}
+.js-d-ok h2{margin:0;font-family:"Cormorant Garamond",Georgia,serif;font-size:28px;font-weight:600}
+.js-d-ok p{margin:12px 0 0;color:#74685a;font-size:15px}
+.js-d-err{display:none;margin:12px 0 0;color:#a24b28;font-size:14px}
+@media (max-width:900px){
+  .js-d-grid{grid-template-columns:1fr}
+  .js-d-visual{min-height:42vh}
+  .js-d-visual .cap{left:20px;right:20px;bottom:20px}
+  .js-d-form{padding:36px 20px 56px}
+  .js-d-form h1{font-size:32px}
+}

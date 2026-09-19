@@ -1,7 +1,17 @@
-# GitHub push status
+# GitHub push status (2026-09-19 Asia/Shanghai)
 
-Partial push to `adamdavis797-maker/joyshard-site-backup` under `public-handoff/`.
+Repo: https://github.com/adamdavis797-maker/joyshard-site-backup  
+Folder on GitHub: `public-handoff/`
 
-**On GitHub:** README, custom-code notes, MANIFEST, diagnosis CSS stubs.
+## Pushed
+- README.md, ARCHITECTURE.md
+- pages/MANIFEST.txt
+- custom-code notes + design-design-form.html
+- css/joyshard-js-d-form.css, joyshard-js-df.css
+- reference/design-form-diagnosis.md (via earlier commit if present)
 
-**Full package on disk (authoritative):** `/workspace/joyshard-public-handoff/` including all live page HTML dumps, ARCHITECTURE.md, css/, custom-code forms, and reference/design-backup.
+## Still primarily on disk (full HTML dumps ~30KB each)
+Authoritative path: `/workspace/joyshard-public-handoff/pages/*.html`  
+Also: css/joyshard-base.css, reference/design-backup-2026-09-06.html, ops SOP.
+
+`git push` over HTTPS failed (no `gh` login / no interactive credentials). Use GitHub MCP or `gh auth login` to sync remaining large HTML dumps.

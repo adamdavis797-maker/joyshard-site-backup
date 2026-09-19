@@ -1,0 +1,18 @@
+
+.js-df{background:#1c1610;color:#fffaf4;font-family:Outfit,ui-sans-serif,system-ui,sans-serif}
+.js-df *{box-sizing:border-box}
+.js-df a{color:#fffaf4;text-decoration:none}
+.js-df a:hover{color:#c4a36a}
+.js-df-grid{max-width:1120px;margin:0 auto;padding:56px 32px 40px;display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px}
+.js-df-logo{display:inline-flex;align-items:center;gap:10px;margin:0 0 14px;color:#fffaf4;text-decoration:none}
+.js-df-logo span{font-family:"Cormorant Garamond",Georgia,serif;font-size:26px;font-weight:600}
+.js-df-grid p{margin:0;max-width:260px;color:#c4a36a;font-size:14px;line-height:1.65}
+.js-df-col h4{margin:0 0 14px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#c4a36a;font-weight:500}
+.js-df-col ul{margin:0;padding:0;list-style:none}
+.js-df-col li{margin:0 0 8px;font-size:14px}
+.js-df-copy{border-top:1px solid rgba(255,250,244,.1)}
+.js-df-copy-inner{max-width:1120px;margin:0 auto;padding:18px 32px 22px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12px;color:#c4a36a}
+@media (max-width:800px){
+  .js-df-grid{grid-template-columns:1fr;gap:28px;padding:40px 20px 28px}
+  .js-df-copy-inner{padding:16px 20px;flex-direction:column}
+}
