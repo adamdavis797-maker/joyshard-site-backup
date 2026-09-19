@@ -1,0 +1,18 @@
+JoyShard public page crawl
+Fetched: 2026-09-19 ~10:45 Asia/Shanghai (UTC+8)
+User-Agent: JoyShardHandoff/1.0
+Base: https://joyshard.com
+
+home.html                 <- /
+design.html               <- /pages/design
+about.html                <- /pages/about
+faq.html                  <- /pages/faq
+shipping-returns.html     <- /pages/shipping-returns
+privacy.html              <- /pages/privacy
+checkout.html             <- /pages/checkout
+order.html                <- /pages/order (exists, 200)
+cart.html                 <- /cart/
+
+Note: live /pages/design (2026-09-19) is header+footer only; Design form
+Custom Code modules (.js-d / .js-df) are missing from the public DOM.
+See reference/design-backup-2026-09-06.html and reference/design-form-diagnosis.md.
